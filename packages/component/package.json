@@ -1,0 +1,20 @@
+{
+  "name": "@hilfreich/component",
+  "version": "1.0.0",
+  "description": "helpful components",
+  "author": "Rahul Mitra",
+  "homepage": "https://github.com/iamrhm/react-styled-jsx-component-library#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamrhm/react-styled-jsx-component-library.git"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/iamrhm/react-styled-jsx-component-library/issues"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
+}

@@ -1,14 +1,26 @@
 {
-  "name": "react-styled-jsx-component-library",
+  "name": "hilfreich",
   "version": "1.0.0",
   "description": "Demo project for React component library with styled jsx and lerna setup",
-  "main": "index.js",
   "repository": "git@github.com:iamrhm/react-styled-jsx-component-library.git",
   "author": "Rahul Mitra",
   "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
     "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.29.3",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.24.2",
@@ -18,6 +30,7 @@
     "lerna": "^4.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "rollup": "^2.56.3",
     "styled-jsx": "^4.0.0",
     "typescript": "^4.3.5"
   }

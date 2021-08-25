@@ -1,0 +1,17 @@
+{
+  "name": "@hilfreich/utils",
+  "version": "1.0.0",
+  "description": "Helpful utils",
+  "author": "Rahul Mitra",
+  "homepage": "https://github.com/iamrhm/react-styled-jsx-component-library#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamrhm/react-styled-jsx-component-library.git"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/iamrhm/react-styled-jsx-component-library/issues"
+  }
+}
