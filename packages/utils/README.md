@@ -1,11 +1,3 @@
-# `utils`
+## Boilerplate setup for component packaging
 
-> TODO: description
-
-## Usage
-
-```
-const utils = require('utils');
-
-// TODO: DEMONSTRATE API
-```
+This is a boilerplate setup for component packaging using lerna react typescript and rollup. <br /> Coming soon styled-jsx and postcss setup!!
