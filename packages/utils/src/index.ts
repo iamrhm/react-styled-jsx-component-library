@@ -1,5 +1,5 @@
 /* eslint-disable import/prefer-default-export */
-import { printHelper } from './src/helper';
+import { printHelper } from './helper';
 
 export {
   printHelper,

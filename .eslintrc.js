@@ -22,7 +22,7 @@ module.exports = {
   rules: {
     strict: 0,
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
-    '@typescript-eslint/explicit-function-return-type': ['error'],
+    '@typescript-eslint/explicit-function-return-type': 'off',
     'import/extensions': [
       'error',
       'ignorePackages',
@@ -41,4 +41,12 @@ module.exports = {
       },
     },
   },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        '@typescript-eslint/explicit-function-return-type': ['error'],
+      },
+    },
+  ],
 };

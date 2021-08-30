@@ -5,13 +5,21 @@
   "author": "Rahul Mitra",
   "homepage": "https://github.com/iamrhm/react-styled-jsx-component-library#readme",
   "license": "ISC",
+  "input": "src/index.ts",
+  "tsconfig": "tsconfig.json",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iamrhm/react-styled-jsx-component-library.git"
   },
-  "scripts": {},
+  "scripts": {
+    "build": "rm -rf dist && npm run build:typings && rollup -c ../../rollup.config.js",
+    "build:typings": "tsc -p ./tsconfig.json --declarationDir dist/types"
+  },
   "bugs": {
     "url": "https://github.com/iamrhm/react-styled-jsx-component-library/issues"
+  },
+  "peerDependencies": {
+    "typescript": "^4.3.5"
   }
 }
