@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { defineConfig } from 'rollup';
 import babel from '@rollup/plugin-babel';
 import typescript from '@rollup/plugin-typescript';
