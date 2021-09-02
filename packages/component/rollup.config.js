@@ -24,5 +24,4 @@ export default defineConfig({
       exclude: excludePath,
     }),
   ],
-  external: ['react', /@babel\/runtime/],
 });

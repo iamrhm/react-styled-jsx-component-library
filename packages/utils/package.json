@@ -6,6 +6,7 @@
   "homepage": "https://github.com/iamrhm/react-styled-jsx-component-library#readme",
   "license": "ISC",
   "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iamrhm/react-styled-jsx-component-library.git"

@@ -3,7 +3,14 @@ import React from 'react';
 
 const Box: React.FC = () => (
   <>
-    Hello world From Box
+    <style jsx>
+      {`
+        p {
+          text-align: center;
+        }
+    `}
+    </style>
+    <p>Hello world From Box</p>
   </>
 );
 
