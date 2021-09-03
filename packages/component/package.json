@@ -12,8 +12,7 @@
     "url": "git+https://github.com/iamrhm/react-styled-jsx-component-library.git"
   },
   "scripts": {
-    "build": "rm -rf dist && rollup -c",
-    "build:typings": "tsc -p ./tsconfig.json --declarationDir dist/types"
+    "build": "rm -rf dist && rollup -c"
   },
   "bugs": {
     "url": "https://github.com/iamrhm/react-styled-jsx-component-library/issues"

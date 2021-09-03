@@ -3,7 +3,14 @@ import React from 'react';
 
 const Button: React.FC = () => (
   <>
-    Hello world From Button
+    <style jsx>
+      {`
+        p {
+          text-align: center;
+        }
+    `}
+    </style>
+    <p>Hello world From Button</p>
   </>
 );
 
