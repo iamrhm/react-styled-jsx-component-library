@@ -7,6 +7,13 @@ const Box: React.FC = () => (
       {`
         p {
           text-align: center;
+          color: red;
+        }
+        @media (--screen-mob) {
+          p {
+            text-align: center;
+            color: black;
+          }
         }
     `}
     </style>

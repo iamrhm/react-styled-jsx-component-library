@@ -19,7 +19,6 @@
   },
   "peerDependencies": {
     "react": "^17.0.2",
-    "typescript": "^4.3.5",
     "styled-jsx": "^4.0.1"
   }
 }

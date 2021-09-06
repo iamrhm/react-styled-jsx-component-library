@@ -17,7 +17,5 @@
   "bugs": {
     "url": "https://github.com/iamrhm/react-styled-jsx-component-library/issues"
   },
-  "peerDependencies": {
-    "typescript": "^4.3.5"
-  }
+  "peerDependencies": {}
 }

@@ -3,6 +3,7 @@ import { defineConfig } from 'rollup';
 import babel from '@rollup/plugin-babel';
 import typescript from '@rollup/plugin-typescript';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
+import postcss from 'rollup-plugin-postcss';
 
 import { DEFAULT_EXTENSIONS } from '@babel/core';
 
@@ -17,6 +18,7 @@ export default defineConfig({
   },
   plugins: [
     peerDepsExternal(),
+    postcss(),
     typescript(),
     babel({
       babelHelpers: 'runtime',
